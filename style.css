@@ -1,0 +1,198 @@
+/* Cambiar el color de fondo de mi pantalla background */
+body {
+    /*FONDO*/
+    background: #50C9C3; 
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3); 
+    background: linear-gradient(to right, #96DEDA, #50C9C3);  
+    /* Si pones sobre el cuadrito puedes cambiar el color */
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+
+}
+
+/*TÍTULO*/
+.libros-hojas {
+    display: flex;
+    align-items: flex-start;
+    padding: .5%;
+    width: 10%;
+    height: auto;
+    background-color: #fd2ec2;
+    border-radius: 50%;
+    float: left;
+    margin: 1% 4%;
+}
+
+.libros-hojas2 {
+    display: flex;
+    align-items: flex-start;
+    padding: .5%;
+    width: 10%;
+    height: auto;
+    background-color: #fd2ec2;
+    border-radius: 50%;
+    float: right;
+    margin: 1% 4%;
+}
+
+.titulo {
+   display: flex;
+   justify-content: center;
+   text-align: justify;
+    /* color del texto */ 
+   color: #fd2ec2;
+   /*font-family: 'Mooli', sans-serif;*/
+   font-family: 'Courier New', Courier, monospace;
+   padding: center;
+   margin: 2% 2%;
+}
+
+/*INDICE*/
+.indice {
+    display: flex;
+   justify-content: space-between; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.lista {
+    /* color del texto */
+    color:  #0000FF;
+}
+
+/*DESARROLLO*/
+.categorias {
+    display: flex;
+    justify-content: center;
+    color: #060202;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: #ffcefd;
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.titulo-libro {
+    color: #060202;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    border-color: #ffcefd;
+    border-radius: 1%;
+    border-style: solid;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 1% 3%;
+    columns: 100px 2;
+}
+.narnia {
+    column-span: all;
+    display: flex;
+    justify-content: center;
+    
+}
+.foto {
+    padding-left: 30%;
+    /*ancho*/
+    width: 40%;
+    /*altura*/
+    height: auto;
+}
+.reseña {
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 30%;
+}
+
+
+/*MÁS LIBROS*/
+.titulo-otros {
+    color: #060202;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+     /*TÍTULOS LIBROS*/
+.otros {
+    padding-top: 0.5%;
+    display: flex;
+    justify-content: space-around;
+    columns: 100px 3;
+}
+.otros2 {
+    padding-top: 0.5%;
+    padding-right:4%;
+    display: flex;
+    justify-content: space-around;
+    columns: 100px 2;
+}
+.otros3 {
+    padding-top: 0.5%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-around;
+    columns: 100px 3;
+}
+    /*IMÁGENES LIBROS*/
+.otros-foto {
+    padding-left: 6%;
+    padding-top: 1%;
+    columns: 100px 3;
+}
+.otros-foto2 {
+    padding-left: 9%;
+    padding-top: 1%;
+    columns: 100px 2;
+}
+.uno {
+    /*ancho*/
+    width: 75%;
+    /*altura*/
+    height: 400px;
+}
+.uno1 {
+    padding-left: 7%;
+    /*ancho*/
+    width: 60%;
+    /*altura*/
+    height: auto;
+}
+
+/*LINK CONOCER MÁS*/
+.conocer {
+    display: flex;
+   justify-content: flex-start;
+   font-family: 'Courier New', Courier, monospace;    
+}
+.conocer-color {
+    /* color del texto */
+    color:  #0000FF; 
+}
+
+/*AUTOR*/
+.autor {
+   font-family: 'Courier New', Courier, monospace;
+   color: #060202;
+   padding-left: 3%;
+}
+/*CAJITA DE OPINIONES**/
+.cajita {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 5px;
+    padding-left: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #060202;
+}
+/*Yo*/
+.yo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+   color: #060202;
+
+}
+
+
+
